@@ -15,6 +15,4 @@ public class AdminMainMenu implements Menu {
     public void exit() {
         new LoginMenu().show();
     }
-
-
 }
