@@ -6,11 +6,11 @@ import view.Menu;
 public class UserMainMenu implements Menu {
     @Override
     public void show() {
-        System.out.println("");
+        System.out.println();
     }
 
     @Override
     public void exit() {
-        new LoginMenu().show();
+        new ChooseUserMenu().show();
     }
 }
